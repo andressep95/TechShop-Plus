@@ -41,6 +41,9 @@ Desarrollar una aplicación web que permita:
 
 ## Estructura del Proyecto
 
+![Schema](schema.png)
+
+
 ### 1. Modelo de Datos
 
 1. **Cliente (Customer)**
