@@ -140,7 +140,37 @@ Response:
 }
 ```
 
-### 4. Tareas a Realizar
+### 4. Consultas SQL Requeridas
+
+Se solicita implementar las siguientes consultas SQL para obtener información específica del sistema:
+
+1. **Análisis de Órdenes por Cliente**
+   - Crear una consulta que muestre para cada cliente:
+     * Nombre del cliente
+     * Total de órdenes realizadas
+     * Monto total de todas sus compras
+     * Fecha de su primera y última orden
+     * Promedio de productos por orden
+
+2. **Top Productos Vendidos**
+   - Desarrollar una consulta que muestre:
+     * Nombre del producto
+     * Cantidad total vendida
+     * Número de órdenes diferentes en las que aparece
+     * Precio promedio al que se ha vendido
+     * Monto total generado
+   - La consulta debe ordenar los resultados por monto total generado de manera descendente
+
+3. **Análisis de Ventas por Periodo**
+   - Implementar una consulta que muestre por mes:
+     * Mes y año
+     * Cantidad de órdenes
+     * Número de clientes diferentes que compraron
+     * Total de productos vendidos
+     * Monto total de ventas
+     * Comparación porcentual de ventas respecto al mes anterior
+
+### 5. Tareas a Realizar
 
 1. **Backend**
    - Implementar entidades JPA
